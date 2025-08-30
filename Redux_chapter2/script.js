@@ -6,6 +6,9 @@ import Counting from "./Counting";
 import { Provider } from "react-redux";
 import stores from "./Stores";
 
+// only for workflow samjhne ke liye
+// import { reactslicer } from "./Slicer1";
+
 function App(){
 
     return(

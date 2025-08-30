@@ -7,6 +7,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 import slice1Reducer from "./Slicer1"
 
+// inc dec reset dispatch hoke counting.js se yaha pe ayegi match karne ki store pe konsi slice pe jana hai 
+// then flow counting.js se yaha ayega konsi slice pe jana hai then -> slice pe jake function perform kar dega
+
+//{type: 'slice1/Increment', payload: undefined} -> ab yaha slice select hogi and function pata chalgea kya karna hai 
 
 const stores = configureStore({
     reducer:{
