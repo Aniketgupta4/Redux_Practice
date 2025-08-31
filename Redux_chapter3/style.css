@@ -1,0 +1,67 @@
+/* ---- Coin Card ---- */
+.coin-card {
+  background: #f8f9fa;            /* light gray background */
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(64, 64, 64, 0.1);
+  padding: 20px;
+  margin: 15px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+}
+
+.coin-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(64, 64, 64, 0.2);
+}
+
+.coin-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.coin-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #2c3e50;  /* dark slate */
+}
+
+.coin-card p {
+  font-size: 14px;
+  color: #5f6368;  /* subtle gray */
+  margin: 5px 0;
+}
+
+
+/* ---- Header ---- */
+.header {
+  background: linear-gradient(90deg, #1abc9c, #16a085, #6a11cb); 
+  /* teal → emerald → purple */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  border-radius: 20px;
+  top: 0;
+  z-index: 1000;
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
