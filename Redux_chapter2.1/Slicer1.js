@@ -18,9 +18,11 @@ const reactslicer = createSlice({
 })
 
 
+
 export const {Increment , Decrement , Reset , CustomIncreaser} = reactslicer.actions;
 
 export default reactslicer.reducer;
+
 
 
 
